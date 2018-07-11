@@ -16,6 +16,8 @@ The GUIs I am examining are:
 * Git-Bash (from Git for Windows)
 * Git-GUI (from Git for Windows)
 * Github Desktop
+* RStudio
+* R packages (usethis, git2r, gh)
 
 Alternative scenarios:
 * Accessing repos on github/jalsalam
@@ -85,6 +87,16 @@ Git-GUI is a basic GUI. It is not nearly as slick or user-friendly as other GUIs
 * I did not see a place to check or modify user name and email information.
 * You can view visualize the repo and browse commits, but it is located inconveniently which probably means people won't use it much.
 * I did not see how to ignore individual files or folders
+
+## RStudio
+
+RStudio can do basic git operations. If you have a project with is set up with a Git repository, the Git pane will be next to the environment/history panes in RStudio.
+
+To set up:
+- RStudio needs to know where your git is. It looks in the system PATH but no the user PATH automatically. So you may need to tell it where to find the Git executable to proceed.
+- To set up a repo, you can use:
+- New project -> from version control workflow (e.g., cloning a remote project)
+- OR: New project locally, then using usethis to push. However, I am currently getting errors and not able to make this approach work.
 
 ## Git Credential Manager
 
