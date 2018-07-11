@@ -76,3 +76,9 @@ This authentication is separate from who the commit is attributed to -- you can 
 
 When things are going well, you hardly know you are using the credential manager -- you might forget that usernames and passwords are involved at all.
 
+
+### Line Endings
+
+https://help.github.com/articles/dealing-with-line-endings/
+
+
