@@ -1,0 +1,2 @@
+# setup
+Tips and configuration
