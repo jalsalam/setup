@@ -34,6 +34,10 @@ Steps I have tried:
 - clone a repo from github/jalsalam: Success!
 
 
+* Sourcetree respects local configuration with respect to the committer
+* Once credential cacheing was set up correctly to work from the command line it also worked in Sourcetree (non-integration).
+
+
 ## Git Bash
 
 https://tommaso.pavese.me/2014/07/08/git-config-for-multiple-github-accounts/
